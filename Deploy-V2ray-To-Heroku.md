@@ -12,7 +12,8 @@
 
    ![Travis](https://user-images.githubusercontent.com/31188782/33354036-c14d920a-d4eb-11e7-99b4-d7d8816bbef6.png)
 
-3. 在项目的More options --> settings 设置Environment Variables：
+3. 在项目的More options --> settings 添加Environment Variables：
+
    - HEROKU_APPNAME 步骤一的appname 
 
    - HEROKU_EMAIL 注册heroku的邮箱
