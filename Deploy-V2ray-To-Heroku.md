@@ -8,7 +8,7 @@
 
    ![create new app heroku](https://user-images.githubusercontent.com/31188782/33353392-905c3abe-d4e8-11e7-812a-866f95875ef9.png)
 
-2. Fork本项目，然后Gihub授权登录TravisCI https://travis-ci.org/profile ，选择fork的项目
+2. Fork本项目，修改Dockerfile中ENV的VER=[最新版本号](https://github.com/v2ray/v2ray-core/releases/latest)，然后Gihub授权登录TravisCI https://travis-ci.org/profile ，选择fork的项目
 
    ![Travis](https://user-images.githubusercontent.com/31188782/33354036-c14d920a-d4eb-11e7-99b4-d7d8816bbef6.png)
 
@@ -61,7 +61,7 @@
 8. 测试服务器
    https://github.com/onplus/shadowsocks-heroku/issues/119
 
-9. 更新服务端版本
+9. 更新服务端版本 https://github.com/v2ray/v2ray-core/releases/latest
    
    修改Dockerfile (VER=3.1)
 ```
